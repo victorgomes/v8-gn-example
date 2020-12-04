@@ -1,0 +1,11 @@
+executable("hello-world") {
+  sources = [
+    "src/hello-world.cc"
+  ]
+  deps = [
+    "//v8:v8_libplatform"
+  ]
+  public_deps = [
+    "//v8"
+  ]
+}
