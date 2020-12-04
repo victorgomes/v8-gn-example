@@ -1,0 +1,9 @@
+# Dependencies
+/base
+/build
+/buildtools/
+/third_party
+/tools/clang
+/v8
+# Output folder
+/out
